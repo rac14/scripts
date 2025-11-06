@@ -1,7 +1,7 @@
 # Check if Java is installed
 if (-not (Get-Command java -ErrorAction SilentlyContinue)) {
     Write-Host "Java is not installed. Please install Java 21 or higher."
-    Write-Host "You can refer to the installation instructions at https://docs.powernukkitx.org/installation/linux"
+    Write-Host "You can refer to the installation instructions at https://docs.powernukkitx.org/installation/windows"
     exit 1
 }
 
