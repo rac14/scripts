@@ -1,4 +1,5 @@
 @echo off
+chcp 65001 >nul
 
 TITLE PowerNukkitX server software for Minecraft: Bedrock Edition
 
