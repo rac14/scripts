@@ -1,5 +1,7 @@
 @echo off
 
+chcp 65001 >nul
+
 TITLE PowerNukkitX server software for Minecraft: Bedrock Edition
 
 REM Check if Java is installed

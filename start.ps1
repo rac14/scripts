@@ -1,3 +1,5 @@
+[Console]::OutputEncoding = [System.Text.Encoding]::UTF8
+
 # Check if Java is installed
 if (-not (Get-Command java -ErrorAction SilentlyContinue)) {
     Write-Host "Java is not installed. Please install Java 21 or higher."

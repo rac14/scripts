@@ -1,5 +1,7 @@
 #!/bin/bash
 
+export LANG=C.UTF-8
+
 echo "PowerNukkitX server software for Minecraft: Bedrock Edition"
 
 # Check if Java is installed
